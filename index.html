@@ -1,0 +1,383 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <!-- 引入样式 -->
+  <link rel="stylesheet" href="./css/bootstrap.min.css">
+  <style>
+    .btn-atguigu-search:active:focus,
+    .btn-atguigu-search:focus {
+      outline: none;
+      outline-offset: none;
+    }
+
+    .input-atguigu-search:focus {
+      border-color: #ccc;
+      box-shadow: none;
+    }
+
+    body {
+      padding-top: 50px;
+    }
+
+    .carousel-atguigu img {
+      width: 100%;
+    }
+
+    .main-content {
+      margin-top: 20px;
+    }
+
+    .page-footer {
+      color: #fff;
+      background: #333;
+      padding-top: 40px;
+    }
+
+    .page-footer ul {
+      list-style: none;
+      padding: 0;
+    }
+
+    .page-footer ul h3 {
+      font-size: 1.2em;
+    }
+
+    .page-footer a {
+      color: #fff;
+
+    }
+
+    .footer-copyright {
+      margin-top: 30px;
+      text-align: center;
+    }
+  </style>
+</head>
+
+<body>
+  <nav class="navbar navbar-default  navbar-inverse navbar-fixed-top">
+    <div class="container">
+      <!-- Brand and toggle get grouped for better mobile display -->
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
+          data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="#"">新光宇</a>
+      </div>
+
+      <!-- Collect the nav links, forms, and other content for toggling -->
+      <div class=" collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+          <ul class="nav navbar-nav">
+            <li class="active"><a href="#">首页</a></li>
+            <li><a href="#">简介</a></li>
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true"
+                aria-expanded="false">经营范围 <span class="caret"></span></a>
+              <ul class="dropdown-menu">
+                <li><a href="#">商业广告</a></li>
+                <li><a href="#">平面设计</a></li>
+                <li><a href="#">艺人孵化</a></li>
+                <li role="separator" class="divider"></li>
+                <li><a href="#">新媒体</a></li>
+                <li role="separator" class="divider"></li>
+                <li><a href="#">配音</a></li>
+              </ul>
+            </li>
+          </ul>
+          <form class="navbar-form navbar-left">
+            <div class="input-group">
+              <input type="text" class="form-control  .input-atguigu-search" placeholder="Search for...">
+              <span class="input-group-btn">
+                <button class="btn btn-default btn-atguigu-search" type="button"><i class="glyphicon glyphicon-search"
+                    style="color: rgb(255, 0, 204);"></i></button>
+              </span>
+            </div>
+          </form>
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="#" data-toggle="modal" data-target="#loginModel">登录</a></li>
+            <li><a href="#">注册</a></li>
+          </ul>
+      </div><!-- /.navbar-collapse -->
+    </div><!-- /.container-fluid -->
+  </nav>
+  <!-- 轮播图 -->
+  <div id="carousel-example-generic" class="carousel slide carousel-atguigu" data-ride="carousel">
+    <!-- Indicators -->
+    <ol class="carousel-indicators">
+      <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+      <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+      <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+    </ol>
+
+    <!-- Wrapper for slides -->
+    <div class="carousel-inner" role="listbox">
+      <div class="item active">
+        <picture>
+          <!-- 当窗口宽度大于等于992 使用play01.jpg -->
+          <source srcset="./images/play01.jpg" media="(min-width:992px)">
+          <source srcset="./images/play01-sm.jpg" media="(min-width:768px)">
+          <img src="./images/play01-xs.jpg" alt="">
+        </picture>
+
+        <div class="carousel-caption">
+          <p>第一部分</p>
+          <p>
+            为老人，俭下艳王是皮天是快，一书司反县未太资生丹对起，然后办兴年文花中间持绛接我之若可在君胜，是败在禀我，种人才不德骨，前名感秦馆轻其备不得，太杨二范后航兮之卡德非人要秦大承倒生，能褒天后是孔谓自一专骨色老活举娇，面问德才药哥帝无由唯不，辜榜妄卞，撒手不。
+          </p>
+        </div>
+      </div>
+      <div class="item">
+        <picture>
+          <!-- 当窗口宽度大于等于992 使用play01.jpg -->
+          <source srcset="./images/play02.jpg" media="(min-width:992px)">
+          <source srcset="./images/play02-sm.jpg" media="(min-width:768px)">
+          <img src="./images/play02-xs.jpg" alt="">
+        </picture>
+        <div class="carousel-caption">
+          <p>第二部分</p>
+          <p>
+            沾才使人者说一，量而会我虽撒，无的感养可反子事没即土安谓，六判人幕守更不不完能游六帅谓天爱畴要九，历里世变和被的了那才了是死到怎以不，你找越恨衣的他收是，亲韩不为我教了真赐杨，金县兴要为郭禀饮日不秦属了不由此的，血将外里实人往首以人者人是收怒，赠后洞望见。
+          </p>
+        </div>
+      </div>
+      <div class="item">
+        <picture>
+          <!-- 当窗口宽度大于等于992 使用play01.jpg -->
+          <source srcset="./images/play03.jpg" media="(min-width:992px)">
+          <source srcset="./images/play03-sm.jpg" media="(min-width:768px)">
+          <img src="./images/play03-xs.jpg" alt="">
+        </picture>
+        <div class="carousel-caption">
+          <p>第三部分</p>
+          <p>
+            太使送之是感极介得才秦拿锐，就常慨帮别天使三轻，太本不向年身揽说也变国帝人你中洪，可爱尝房身，了了因攻二馆平护不平日大被法有吞秦助，欲我望问金预你恶实，十而山越韩统快学这，洋久锐会不总九牛导开承中不爱狂想，头哥太只已药判娘，君书创仍九么什十虑你，求沾虑拿。
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Controls -->
+    <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+      <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+      <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+      <span class="sr-only">Next</span>
+    </a>
+  </div>
+  <!-- 主要内容 -->
+  <div class="main-content container">
+    <!-- 路径导航 -->
+    <ol class="breadcrumb">
+      <li><a href="#">首页</a></li>
+      <li><a href="#">课程</a></li>
+      <li class="active">推荐课程</li>
+    </ol>
+    <!-- 课程列表 -->
+    <!-- 
+      超小屏幕 768px以下， 一行一个， 每个占12份 col-xs-
+      小屏幕 768~992 一行两个 每行占6份 col-sm-
+      中等屏幕 992 ~1200 一行三个 每行占4份  col-md-
+      大屏幕 1200以上 一行四个 每行占3份 col-lg-
+     -->
+    <div class="courses">
+      <div class="row" id="courseBox">
+
+      </div>
+    </div>
+    <nav aria-label="Page navigation">
+      <ul class="pagination"  id="pageBox">
+
+      </ul>
+    </nav>
+  </div>
+  <!-- 页脚 -->
+  <footer class="page-footer">
+    <div class="container">
+      <!-- 
+          超小屏幕 768 12份  col-xs
+          小屏幕 768~992px 6份 col-sm
+          中等屏幕 992以上 3份 col-md
+         -->
+      <div class="footer-nav">
+        <div class="row">
+          <div class="col-sm-6 col-md-3">
+            <ul>
+              <h3>用户1</h3>
+              <li>
+                <a href="#">账号个人中心</a>
+              </li>
+              <li>
+                <a href="#">账号中心</a>
+              </li>
+              <li>
+                <a href="#">个人中心</a>
+              </li>
+              <li>
+                <a href="#">账号个人</a>
+              </li>
+            </ul>
+          </div>
+          <div class="col-sm-6 col-md-3">
+            <ul>
+              <h3>用户2</h3>
+              <li>
+                <a href="#">账号个人中心</a>
+              </li>
+              <li>
+                <a href="#">账号中心</a>
+              </li>
+              <li>
+                <a href="#">个人中心</a>
+              </li>
+              <li>
+                <a href="#">账号个人</a>
+              </li>
+            </ul>
+          </div>
+          <div class="col-sm-6 col-md-3">
+            <ul>
+              <h3>用户3</h3>
+              <li>
+                <a href="#">账号个人中心</a>
+              </li>
+              <li>
+                <a href="#">账号中心</a>
+              </li>
+              <li>
+                <a href="#">个人中心</a>
+              </li>
+              <li>
+                <a href="#">账号个人</a>
+              </li>
+            </ul>
+          </div>
+          <div class="col-sm-6 col-md-3">
+            <ul>
+              <h3>用户4</h3>
+              <li>
+                <a href="#">账号个人中心</a>
+              </li>
+              <li>
+                <a href="#">账号中心</a>
+              </li>
+              <li>
+                <a href="#">个人中心</a>
+              </li>
+              <li>
+                <a href="#">账号个人</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="footer-copyright">&copy2023-2050版权所有</div>
+    </div>
+  </footer>
+  <!-- 模态框 -->
+  <div class="modal fade" tabindex="-1" role="dialog" id="loginModel">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span
+              aria-hidden="true">&times;</span></button>
+          <h4 class="modal-title">登录</h4>
+        </div>
+        <div class="modal-body">
+          <form>
+            <div class="form-group">
+              <label for="exampleInputEmail1">邮箱</label>
+              <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Email">
+            </div>
+            <div class="form-group">
+              <label for="exampleInputPassword1">密码</label>
+              <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+            </div>
+
+            <div class="checkbox">
+              <label>
+                <input type="checkbox"> 记住密码
+              </label>
+            </div>
+
+          </form>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">关闭</button>
+          <button type="button" class="btn btn-primary">登录</button>
+        </div>
+      </div><!-- /.modal-content -->
+    </div><!-- /.modal-dialog -->
+  </div><!-- /.modal -->
+  <!-- 引入js脚本 -->
+  <script src="./js/jquery-1.12.4.min.js"></script>
+  <script src="./js/bootstrap.min.js"></script>
+  <script src="./js/axios.min.js"></script>
+  <script>
+    (() => {
+      $('#pageBox').on('click','a',function(event){
+        getCourse(this.dataset.page);
+        event.preventDefault();
+      })
+      // 获取课程信息 参数1 第几页的数据 默认值是1 参数2 是每页多少条数据 默认值是8
+      getCourse();
+      function getCourse(no=1, size=8) {
+        // 
+        axios
+          .get('http://api.fuming.site:54254/course', {
+            params: {
+              pageNo: no,
+              pageSize: size
+            }
+          }).then(res => {
+            const htmlData = res.data.data.map(item => `<div class="course-item col-sm-6 col-md-4 col-lg-3">
+          <div class="thumbnail">
+            <img src="${item.img}" alt="...">
+            <div class="caption">
+              <h5>${item.title}</h5>
+              <p><a href="#" class="btn btn-success" role="button">立即购买</a> 
+                <a href="${item.href}" class="btn btn-info"
+                  role="button">在线试看</a></p>
+            </div>
+          </div>
+        </div>`).join('')
+            // 分页信息
+            let pageData = ` <li>
+          <a href="#" aria-label="Previous" data-page='${res.data.pageNo-1}'>
+            <span aria-hidden="true">上一页</span>
+          </a>
+        </li>`
+            for (let i = 1; i <= res.data.pageSum; i++) {
+              pageData += `<li class="${i === res.data.pageNo}"><a href="#" data-page="${i}">${i}</a></li>`
+            }
+            pageData += `<li>
+          <a href="#" aria-label="Next" data-page='${res.data.pageNo+1}'>
+            <span aria-hidden="true">下一页</span>
+          </a>
+        </li> `
+            $('#courseBox').html(htmlData);
+            $('#pageBox').html(pageData);
+
+
+          })
+          // .catch(() => {
+          //   alert('获取数据失败')
+          // })
+      }
+
+    })()
+
+  </script>
+</body>
+
+</html>
